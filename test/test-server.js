@@ -2,6 +2,7 @@ var chai = require('chai');
 const request = require('supertest');
 const app = require('../server');
 
+//Comment added by Sandeep - 8/18/2022
 describe('GET /', function() {
     it('responds with json', function(done) {
       request(app)
